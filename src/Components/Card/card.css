@@ -1,0 +1,38 @@
+.main-container {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    display: flex;
+    width: 30vw;
+    padding: 5vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5vw;
+    gap: 1vw;
+    background-color: lightcoral;
+
+}
+
+.color-code {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    border-radius: 1vw;
+    /* gap: 0.5vw; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 1vw 2vw; */
+    background-color: white;
+
+
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
